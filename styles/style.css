@@ -1,0 +1,23 @@
+/* common style  */
+.font-light {
+  color: #8987a1;
+}
+.font-dark {
+  color: #252432;
+}
+
+header {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+  font-weight: 400px;
+}
