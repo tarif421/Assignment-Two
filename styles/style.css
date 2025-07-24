@@ -36,6 +36,28 @@ header {
   font-weight: bold;
   margin-bottom: 15px;
 }
-.banner-left span {
+.span {
   color: #e95a08;
+}
+
+/* main cards style  */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.contaier-description h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contaier-description p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  padding: 0 60px;
 }
