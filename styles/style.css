@@ -93,6 +93,23 @@ main {
   font-weight: 500px;
 }
 
+/* flowers plant contaier  */
+.fp-contier {
+  display: flex;
+  margin-top: 150px;
+}
+.fp-text h1 {
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.fp-text {
+  margin-left: 50px;
+}
+
+.fp-text-description {
+  font-size: 23px;
+}
 /* latest deals  */
 .letest-deals {
   padding: 60px 0;
