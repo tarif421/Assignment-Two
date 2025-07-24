@@ -159,7 +159,7 @@ main {
   text-align: center;
 }
 
-.shop-now {
+/* .shop-now {
   display: grid;
   grid-template-columns: repeat(2, fr);
   gap: 20px;
@@ -236,13 +236,13 @@ main {
   align-items: center;
   text-decoration: underline;
   color: #ffffff;
-}
+} */
 
 /* shop  */
 .shop-now-container {
   display: flex;
 }
-
+ /* .shop-left  */
 .shop-left .img-one {
   background-image: url(../assets/deal-bloom.png);
   width: 365px;
@@ -361,7 +361,7 @@ main {
     margin: 0;
   }
   .nav-removal-items {
-    visibility: hidden;
+    display: none;
   }
 
   .banner-container {
@@ -376,13 +376,20 @@ main {
   .badge img {
     visibility: hidden;
   }
+  .fp-contier {
+    flex-direction: column;
+  }
+  .fp-left img {
+    width:365px;
+    padding: 0 1rem;
+  }
+
+  /* shop now  */
   .shop-now-container{
   flex-direction: column;
   padding: 0 15px;
   }
-  .shop-right {
-    width: 450px;
-  }
+
   .shop-right {
     width: 365px;
     height: 200px;
@@ -395,3 +402,14 @@ main {
   .shop-right-text {
     padding: 0;
   }
+
+  .colorful-branch-container h1 {
+    font-size: 16px;
+
+  }
+  .inp-btn-parent {
+    padding: 2rem;
+  }
+ .footer-pannel {
+  flex-direction: column;
+ }
