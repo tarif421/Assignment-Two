@@ -284,3 +284,21 @@ main {
   width: 500px;
   padding: 14px;
 }
+
+/* footer  */
+.footer-pannel {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pannel-1 {
+  width: 250px;
+  font-size: 20px;
+}
+.pannel-4 {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
