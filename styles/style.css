@@ -1,9 +1,20 @@
 /* common style  */
+
+* {
+  font-family: "Inter", sans-serif;
+}
 .font-light {
   color: #8987a1;
 }
 .font-dark {
   color: #252432;
+}
+.btn {
+  background-color: #e95a08;
+  color: #ffffff;
+  width: 270px;
+  padding: 15px;
+  border: none;
 }
 
 /* nav style  */
@@ -45,7 +56,12 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
-
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
 .contaier-description h1 {
   font-size: 50px;
   margin-bottom: 10px;
@@ -60,4 +76,19 @@ main {
   text-align: center;
   font-size: 22px;
   padding: 0 60px;
+}
+
+.cards p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #111111;
+  font-weight: 500px;
+}
+.cards h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #111111;
+  font-weight: 500px;
 }
