@@ -41,6 +41,10 @@ header {
   gap: 45px;
   font-weight: 400px;
 }
+.nav-removal-items {
+  display: flex;
+  gap: 30px;
+}
 /* banner style  */
 .banner-container {
   display: flex;
@@ -109,7 +113,21 @@ main {
 .fp-contier {
   display: flex;
   margin-top: 150px;
+  position: relative;
 }
+
+.badge img{
+  width: 280px;
+  height: 280px;
+  position:absolute;
+  top: -130px;
+  left: 360px;
+  transition: transform ease 7s;
+}
+.badge img:hover {
+  transform:  rotate(360deg);
+}
+
 .fp-text h1 {
   font-size: 60px;
   font-weight: bold;
@@ -126,6 +144,7 @@ main {
 .letest-deals {
   padding: 60px 0;
 }
+
 .letest-deals h1 {
   font-size: 50px;
   font-weight: bold;
@@ -196,7 +215,7 @@ main {
 }
 .box-Three {
   background-image: url(../assets/deal-zabo.png);
-  width: 367px;
+  width: 100%;
   height: 200px;
   background-size: cover;
 }
@@ -206,8 +225,8 @@ main {
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  padding-top: 50px;
-  font-size: 20px;
+  padding-top: 3rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -226,7 +245,7 @@ main {
 
 .shop-left .img-one {
   background-image: url(../assets/deal-bloom.png);
-  width: 360px;
+  width: 365px;
   height: 200px;
   margin-bottom: 20px;
   border-radius: 15px;
@@ -247,7 +266,7 @@ main {
 }
 .shop-left .img-two {
   background-image: url(../assets/deal-ana.png);
-  width: 360px;
+  width: 365px;
   height: 200px;
   border-radius: 15px;
 }
@@ -280,11 +299,11 @@ main {
   padding: 150px;
 }
 .shop-right-text p {
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
 }
 .shop-right-text h5 {
-  font-size: 20px;
+  font-size: 1.5rem;
   text-decoration: underline;
 }
 
@@ -350,4 +369,29 @@ main {
   }
   .card-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .fp-contier, {
+    flex-direction: column;
+  }
+  .badge img {
+    visibility: hidden;
+  }
+  .shop-now-container{
+  flex-direction: column;
+  padding: 0 15px;
+  }
+  .shop-right {
+    width: 450px;
+  }
+  .shop-right {
+    width: 365px;
+    height: 200px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .shop-right p {
+    font-size: 20px;
+  }
+  .shop-right-text {
+    padding: 0;
   }
