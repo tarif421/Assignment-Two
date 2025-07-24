@@ -6,6 +6,8 @@
   color: #252432;
 }
 
+/* nav style  */
+
 header {
   max-width: 1140px;
   margin: 0 auto;
@@ -20,4 +22,20 @@ header {
   list-style: none;
   gap: 45px;
   font-weight: 400px;
+}
+/* banner style  */
+.banner-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.banner-left h1 {
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.banner-left span {
+  color: #e95a08;
 }
