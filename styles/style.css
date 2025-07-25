@@ -159,88 +159,11 @@ main {
   text-align: center;
 }
 
-/* .shop-now {
-  display: grid;
-  grid-template-columns: repeat(2, fr);
-  gap: 20px;
-}
-
-.box-one {
-  background-image: url(../assets/deal-bloom.png);
-  width: 367px;
-  height: 200px;
-  background-size: cover;
-}
-
-.box-one p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  padding-top: 50px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.box-one h5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: underline;
-  color: #ffffff;
-}
-.box-Two {
-  background-image: url(../assets/deal-ana.png);
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-}
-
-.box-Two p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  padding-top: 50px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.box-Two h5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: underline;
-  color: #ffffff;
-}
-.box-Three {
-  background-image: url(../assets/deal-zabo.png);
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-}
-
-.box-Three p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  padding-top: 3rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.box-Three h5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: underline;
-  color: #ffffff;
-} */
 
 /* shop  */
 .shop-now-container {
   display: flex;
+
 }
  /* .shop-left  */
 .shop-left .img-one {
@@ -249,11 +172,13 @@ main {
   height: 200px;
   margin-bottom: 20px;
   border-radius: 15px;
+  filter: brightness(80%);
 }
 .img-one-text {
   text-align: center;
   color: #ffffff;
   padding: 50px;
+  
 }
 .img-one-text {
   font-size: 20px;
@@ -269,6 +194,8 @@ main {
   width: 365px;
   height: 200px;
   border-radius: 15px;
+  filter: brightness(80%);
+  
 }
 .img-two-text {
   text-align: center;
@@ -292,6 +219,7 @@ main {
   height: 420px;
   margin-left: 20px;
   border-radius: 15px;
+  filter: brightness(80%);
 }
 .shop-right-text {
   text-align: center;
